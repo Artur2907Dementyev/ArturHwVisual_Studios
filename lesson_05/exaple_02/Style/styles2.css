@@ -1,0 +1,17 @@
+.block_img {
+height: 400px;
+ background-color: cornsilk;
+ background-image: url("../images/s-cat.png");
+ background-repeat: repeat-x;  
+ background-position: center 18%;
+ background-size: 15%;
+ 
+}
+
+.red_cat{
+height: 400px;
+background-image: url("../images/Red_cat.png");
+background-position: center;
+background-size: 30%;
+background-repeat: no-repeat;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cinema {
+    background-color:beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* height: 100vh; */
+    width: 100%;
+    max-width: 1000px;
+    margin: 5px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: flex-start;
+    height: 100vh;
+    
+    
+}
+
+.box {
+    flex-grow: 1;
+    height: 400px;
+    width: 300px;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.text{
+    background-color: yellow;
+     position: absolute;
+     right: 5px;
+     top: 5px;
+     padding: 2px;
+     text-align: center;
+     border-radius: 2px;
+  
+    }
+    .block{
+        padding-left: 10px;
+        padding-bottom: 4px;
+        display: flex;
+        flex-direction: column;
+        background:linear-gradient(180deg, transparent, black);
+    }
+    .year {
+        font-size: 64px;
+        font-style: normal;
+        font-weight: bold;
+        color: white;
+    }
+    .title {
+        font-size: 24px;
+        font-weight:normal;
+        font-weight: bold;
+        color: yellow;
+    }
+    .description {
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 0.3s ease;
+        max-height: none;
+        color:white;
+    }
+.box1{
+        background-image: url("../image/11.webp"); 
+    }
+    
+.box2 {
+    background-image: url("../image/club.webp");
+    
+    
+}
+.box3 {
+    background-image: url("../image/forest.webp");
+   
+}
+.box4 {
+    background-image: url("../image/ghost.webp");
+    
+}
+.box5 {
+    background-image: url("../image/greenmile.webp");
+   
+}
+.box6 {
+    background-image: url("../image/shawshank.webp");
+   
+}

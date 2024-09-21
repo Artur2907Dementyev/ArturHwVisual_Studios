@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Search</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.amazon.com/s" method="get">
+        <table>
+            <tr>
+                <th>Label</th>
+                <th>Input</th>
+            </tr>
+            <tr>
+                <td><label for="keyword">Search Term:</label></td>
+                <td><input type="text" id="keyword" name="k"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Search">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

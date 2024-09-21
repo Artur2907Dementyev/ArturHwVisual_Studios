@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    height: 150px;
+    background-color: #d1c4e9; /* Light purple */
+    text-align: center;
+    line-height: 150px; /* Center vertically */
+    font-size: 24px;
+}
+
+.content {
+    flex: 1;
+    background-color: #7e57c2; /* Darker purple */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 100px 0;
+}

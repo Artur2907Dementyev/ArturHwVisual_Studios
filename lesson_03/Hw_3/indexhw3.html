@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Page Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: red;
+            height: 100px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            color: white;
+            text-align: center;
+            line-height: 100px; 
+        }
+
+        .main {
+            background-color: blue;
+            font-size: 18px;
+            height: 300px;
+            color: white;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: green;
+            font-size: 18px;
+            height: 100px;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, illum
+            natus ratione ad officia corporis ab necessitatibus deleniti voluptas ipsa
+            assumenda, perspiciatis atque possimus expedita minima repellendus itaque
+            animi architecto?</h1>
+    </header>
+    <main class="main">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, illum
+            natus ratione ad officia corporis ab necessitatibus deleniti voluptas ipsa
+            assumenda, perspiciatis atque possimus expedita minima repellendus itaque
+            animi architecto?</p>
+    </main>
+    <footer class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, illum
+            natus ratione ad officia corporis ab necessitatibus deleniti voluptas ipsa
+            <span class="formatted-text">assumenda</span>, perspiciatis atque possimus expedita minima repellendus itaque
+            animi architecto?</p>
+    </footer>
+</body>
+</html>

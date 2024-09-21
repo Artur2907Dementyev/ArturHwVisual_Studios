@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+.green {
+    background-color: green;
+     color: white;
+     width: 100px;
+     height: 100px;
+
+}
+.blue {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
